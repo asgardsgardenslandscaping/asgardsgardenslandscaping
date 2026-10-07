@@ -368,8 +368,8 @@ textarea { min-height: 130px; resize: vertical; }
 .footer-watermark {
   position: absolute; top: 50%; left: 50%;
   transform: translate(-50%, -50%);
-  height: 280%; width: auto; max-width: none;
-  opacity: 0.15; filter: invert(1); mix-blend-mode: screen;
+  height: 150%; width: auto; max-width: none;
+  opacity: 0.18; filter: invert(1); mix-blend-mode: screen;
   pointer-events: none;
 }
 .footer-credit > span { position: relative; }
