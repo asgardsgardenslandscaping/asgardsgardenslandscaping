@@ -405,3 +405,23 @@ textarea { min-height: 130px; resize: vertical; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
 }
+
+/* ---------- Blog archive index ---------- */
+.archive-list { list-style: none; margin: 0; padding: 0; }
+.archive-list li { border-bottom: 1px solid #e4dfd0; }
+.archive-list li:last-child { border-bottom: none; }
+.archive-list a {
+  display: flex; gap: 1.2rem; align-items: baseline;
+  padding: 0.8rem 0.4rem; text-decoration: none; color: inherit; border-radius: 6px;
+}
+.archive-list a:hover { background: #f6f3ea; }
+.archive-list time {
+  flex: 0 0 7.5rem; font-size: 0.85rem; color: var(--stone-dark);
+  font-variant-numeric: tabular-nums;
+}
+.archive-list span { font-weight: 600; }
+.archive-list a:hover span { color: var(--gold-dark, #8a6d2f); text-decoration: underline; }
+@media (max-width: 560px) {
+  .archive-list a { flex-direction: column; gap: 0.15rem; }
+  .archive-list time { flex: none; }
+}
