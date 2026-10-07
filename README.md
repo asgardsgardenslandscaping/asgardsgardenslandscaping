@@ -78,3 +78,10 @@ Notes:
 All images were downloaded from the original Squarespace site
 (`asgardsgardenslandscaping.squarespace.com`) in October 2026 and belong to the
 business. Keep them in `assets/img/`; filenames are preserved from the source.
+
+## Image hosting note (Oct 7, 2026)
+The page images are currently hotlinked from the Squarespace CDN (`images.squarespace-cdn.com/...`)
+because binary uploads aren't possible through the current GitHub integration. This works fine as long
+as the Squarespace site stays up. To self-host later: upload the optimized WebP files (kept locally in
+`originals/`, resized versions in `assets/img/`) into the repo's `assets/img/` folder via the GitHub web
+UI (Add file > Upload files), then revert the `assets/img/...` URLs in the HTML files.
