@@ -5,7 +5,7 @@ Squarespace site — no frameworks, no build step, no backend.
 
 **Business:** Asgard's Gardens Landscaping — one-time landscape construction in
 Edmonton, AB & surrounding communities. Run by Richard and Craig.
-**Phone:** (587) 545-9896 (`tel:+15875459896` / `sms:+15875459896`)
+**Phone:** (780) 716-0870 (`tel:+17807160870` / `sms:+17807160870`)
 
 ## Project structure
 
@@ -49,7 +49,7 @@ Notes:
 - All asset paths are **relative** (`assets/...`), so the site works both at a
   custom domain root and under a `github.io/<repo>/` subpath.
 - The contact/quote form has no backend by design: it opens the visitor's SMS app
-  pre-addressed to (587) 545-9896 with their message filled in.
+  pre-addressed to (780) 716-0870 with their message filled in.
 - The blog is intentionally **not** migrated: `blog.html` links out to the live
   Squarespace archive at
   `https://asgardsgardenslandscaping.squarespace.com/weather-and-the-world`
